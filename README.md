@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import anyBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-any-by@deno/mod.js';
+import anyBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-any-by@v0.2.0-deno/mod.js';
 ```
 
 #### anyBy( x, predicate\[, thisArg] )
@@ -146,7 +146,7 @@ var cnt = context.count;
 import bernoulli from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-bernoulli@deno/mod.js';
 var isPositiveInteger = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-positive-integer' ).isPrimitive;
 import naryFunction from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-nary-function@deno/mod.js';
-import anyBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-any-by@deno/mod.js';
+import anyBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-any-by@v0.2.0-deno/mod.js';
 
 var x = bernoulli( 10, 0.1, {
     'dtype': 'int8'
